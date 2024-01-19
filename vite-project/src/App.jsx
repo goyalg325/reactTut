@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import Video from './components/Video'
 
 function App() {
 //  let counter = 15
@@ -19,6 +20,7 @@ const removeValue = () => {
     <>
     <h1>chai aur react</h1>
     <p>counter value : {counter}</p>
+    <Video/>
     <button onClick={addValue}>add value {counter}</button>
     <br />
     <button onClick={removeValue}>remove value {counter}</button>
